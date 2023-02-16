@@ -6,7 +6,7 @@ public class Zoo {
         ciudad = nuevaCiudad;
         this.tieneAcuario = tieneAcuario;
     }
-    
+
     public void setCiudad (String nuevaCiudad) {
         ciudad = nuevaCiudad;
     }
@@ -21,5 +21,10 @@ public class Zoo {
 
     public boolean getTieneAcuario (){
         return tieneAcuario;
+    }
+
+    public void imprimirDetalles() {
+        System.out.println("Esta es la ciudad donde se encuentra el zoo" + ciudad + ".") ;
+        System.out.println("¿El zoo dispone de acuario? " + tieneAcuario + ".");
     }
 }
