@@ -8,4 +8,16 @@ public class Animal {
         edad = nuevaEdad;
         zoo = zoo;
     }
+    
+    public String getNombre (){
+        return nombre;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public Zoo getzoo() {
+        return zoo;
+    }
 }
