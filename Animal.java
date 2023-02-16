@@ -8,7 +8,7 @@ public class Animal {
         edad = nuevaEdad;
         zoo = zoo;
     }
-    
+
     public String getNombre (){
         return nombre;
     }
@@ -19,5 +19,17 @@ public class Animal {
 
     public Zoo getzoo() {
         return zoo;
+    }
+
+    public void setedad(int nuevaEdad) {
+        edad = nuevaEdad;
+    }
+
+    public void setzoo(Zoo nuevoZoo) {
+        zoo = nuevoZoo;
+    }
+    
+    public void setnombre (String nuevoNombre) {
+        nombre = nuevoNombre;
     }
 }
