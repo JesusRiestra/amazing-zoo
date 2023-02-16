@@ -28,8 +28,15 @@ public class Animal {
     public void setzoo(Zoo nuevoZoo) {
         zoo = nuevoZoo;
     }
-    
+
     public void setnombre (String nuevoNombre) {
         nombre = nuevoNombre;
+    }
+
+    public void imprimirDetalles() {
+        System.out.println("El animal se llama " + nombre + ".");
+        System.out.println("El animal tiene " + edad + " aÃ±o/s .");
+        System.out.println("Esta es la ciudad donde se encuentra el zoo: " + zoo.getCiudad()+"." );
+        System.out.println("¿El zoo dispone de acuario?: " + zoo.getTieneAcuario()+".");
     }
 }
